@@ -32,7 +32,8 @@ class CustomTasks:
                 f"""
             study about the {self.GOAL} in depth, research the background, past, development over the years and his/their stated intentions and goals as well as those inferred 
             from the actions he/they performs. You will learn about entities and relationships that come into contact with them. 
-            You need to produce in-depth research on the subject for use by analysts who will investigate the information and its relationship to other factors.                {self.__tip_section()}
+            You need to produce in-depth research on the subject for use by analysts who will investigate the information and its relationship to other factors.               
+              {self.__tip_section()}
         """
             ),
             agent=agent
@@ -45,6 +46,7 @@ class CustomTasks:
                 f"""
                 Identify key correlations and connections between the {self.POI} and the {self.GOAL} for actionable insights. list all the important connection 
                 and make sure to uncover the things that would get to know the {self.POI} and the relation to the {self.GOAL} 
+            {self.__tip_section()}
                  """
             ),
             agent=agent
